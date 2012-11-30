@@ -1,0 +1,139 @@
+/* ------------------------------- Global --------------------------- */
+body {
+	width: 960px;
+	margin: 0 auto;
+	font-family: 'ABeeZee', sans-serif;
+}
+
+section {
+	display:block;
+	padding:5px;
+	margin-bottom:10px;
+	overflow:hidden;
+}
+
+.clear {
+ clear:both;
+}
+
+/* ------------------------------- Header and Navigation --------------------------- */
+header {
+	border-bottom:3px dashed #666;
+	overflow:hidden;
+}
+
+
+h1 {
+	float:left;
+	color:#333;
+	text-shadow: 2px 2px 3px rgba(0,0,32,0.5);
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+nav ul {
+	float:right;
+	padding:0;
+}
+
+nav li {
+	list-style-type:none;
+	float:left;
+}
+
+nav a {
+	display:block;
+	width:100px;
+	height:45px;
+	margin-left:20px;
+	text-decoration:none;
+	line-height:45px;
+	text-align:center;
+	color:#fff;
+	background-color:#333;
+}
+
+nav a:hover {
+	color:#333;
+	background-color:#fff;
+	width:96px;
+	height:41px;
+	border:2px solid #333;
+	line-height:41px;
+}
+
+/* ------------------------------- Content --------------------------- */
+#whatis img {
+	float:left;
+}
+
+#gallery {
+	float:right;
+	width:240px;
+	padding-top:20px;
+	padding-left:20px;
+	margin-right:92px;
+	border:2px dashed #666;
+	border-radius:10px;
+}
+
+#gallery li {
+	float:left;
+	margin: 0px 20px 20px 0px;
+}
+
+#rules {
+	color:#fff;
+	background-color:#333;
+	padding:8px;
+	border-radius:15px;
+	box-shadow: 2px 2px 3px rgba(0,0,32,0.5);
+}
+
+#rules div {
+	-moz-column-count:3;
+	-webkit-column-count:3;
+	column-count:3;
+	
+
+}
+
+#rules p {
+margin-top:0px;
+}
+
+/* ------------------------------- Footer --------------------------- */
+
+footer {
+	background-color: rgba(0,0,0,0.8);
+	padding:10px;
+	border-radius: 15px 15px 0px 0px;
+}
+
+footer ul {
+	margin:10px auto 10px;
+	width:291px;
+	overflow:hidden;
+	padding:0px;
+}
+
+footer li {
+	float:left;
+	list-style-type:none;
+	margin:0 10px;
+}
+
+footer a {
+	display:block;
+	width:75px;
+	height:30px;
+	line-height:30px;
+	border:1px solid #fff;
+	text-align:center;
+	text-decoration:none;
+	color:#fff;
+}
+
+footer a:hover {
+	color:#333;
+	background-color:#fff
+}
