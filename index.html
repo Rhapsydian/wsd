@@ -1,61 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 	<title>Reversi</title>
 	<link href='http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<header>
-		<h1>Reversi</h1>
-		<nav>
+	<div id="wrapper">
+		<header>
+			<h1>Reversi</h1>
+			<nav>
+				<ul>
+					<li><a href="#rules">Rules</a></li>
+					<li><a href="#history">History</a></li>
+				</ul>
+			</nav>
+		</header>
+		<article>
+			<section id="whatis">
+				<div id="boardimage"><img src="images/board01.png" alt="Reversi Board" title="Reversi Board"></div>
+				<h2>What is Reversi?</h2>
+				<p>Reversi, sometimes known by the trademarked name Othello, is a two player strategy board game.  The game is played with a board marked by an 8 by 8 grid and 64 tiles or discs.  These discs are black on one side and white on the other.</p>
+				<ul id="gallery">
+					<li><a href="images/gallery01.png" title="Reversi after one turn."><img src="images/gallery01_thumbnail.png" alt="Reversi after one turn."></a></li>
+					<li><a href="images/gallery02.png" title="Reversi after two turns."><img src="images/gallery02_thumbnail.png" alt="Reversi after two turns."></a></li>
+					<li><a href="images/gallery03.png" title="Reversi after three turns."><img src="images/gallery03_thumbnail.png" alt="Reversi after three turns."></a></li>
+					<li><a href="images/gallery04.png" title="Reversi after four turns."><img src="images/gallery04_thumbnail.png" alt="Reversi after four turns."></a></li>
+				</ul>
+			</section>
+			<div class="clear"></div>
+			<section id="rules">
+				<h2>Rules of Reversi</h2>
+				<div>
+					<p>To begin the game each player is assigned a color, either black or white, which corresponds to the black or white sides of the discs.  There are two ways to begin the game from here.  When playing by the original Reversi rules, the first four plays are placed in the center four square of the board.  In the Othello variation, the board starts out with the first four pieces already in the center with the black pieces in the upper-left and lower-right.  Black goes first and the players alternate from there.</p>
+					<p>To play a piece, the player must play a piece of their color where there are one or more pieces of the opposite color between that location and the location of another one of that player’s pieces.  This arrangement must be in a straight line, be it horizontal, vertical or diagonal.  <span>If a player is unable to make a legal move, it becomes the other player’s turn again.  If neither player is able to make a legal move, often because the board is full, the game ends.  <strong>The player with the most face up pieces of their color wins.</strong>  If the players end the game with the same number of face up pieces the game ends in a tie.</span></p>
+				</div>
+			</section>
+			<section id="history">
+				<h2>History of Reversi</h2>
+				<p>Reversi was invented in 1883 by and Englishman.  In 1889 Ravensburger, a German game publisher, started producing the game for sale.  In the early 1970s Tsukuda Origial, a Japanese company created their own variant and trademarked the name Othello, based off the Shakespearian play.  Japan held its first national championship in 1973 and the first world championship was held in 1977.</p>
+				<aside>
+					<h3>Interesting Facts</h3>
+					<ol>
+						<li>There were two Englishmen who claimed to be the inventors of Reversi, John W. Mallett and Lewis Waterman, and both claimed the other to be a fraud.</li>
+						<li>The US has only won the Othello World Championship 5 times since its inception in 1977.</li>
+					</ol>
+				</aside>
+			</section>
+		</article>
+		<footer>
 			<ul>
+				<li><a href="#">Top</a></li>
 				<li><a href="#rules">Rules</a></li>
 				<li><a href="#history">History</a></li>
 			</ul>
-		</nav>
-	</header>
-	<article>
-		<section id="whatis">
-			<img src="images/board01.png" alt="Reversi Board" title="Reversi Board">
-			<h2>What is Reversi?</h2>
-			<p>Reversi, sometimes known by the trademarked name Othello, is a two player strategy board game.  The game is played with a board marked by an 8 by 8 grid and 64 tiles or discs.  These discs are black on one side and white on the other.</p>
-			<ul id="gallery">
-				<li><a href="images/gallery01.png" title="Reversi after one turn."><img src="images/gallery01_thumbnail.png" alt="Reversi after one turn."></a></li>
-				<li><a href="images/gallery02.png" title="Reversi after two turns."><img src="images/gallery02_thumbnail.png" alt="Reversi after two turns."></a></li>
-				<li><a href="images/gallery03.png" title="Reversi after three turns."><img src="images/gallery03_thumbnail.png" alt="Reversi after three turns."></a></li>
-				<li><a href="images/gallery04.png" title="Reversi after four turns."><img src="images/gallery04_thumbnail.png" alt="Reversi after four turns."></a></li>
-			</ul>
-		</section>
-		<div class="clear"></div>
-		<section id="rules">
-			<h2>Rules of Reversi</h2>
-			<div>
-				<p>To begin the game each player is assigned a color, either black or white, which corresponds to the black or white sides of the discs.  There are two ways to begin the game from here.  When playing by the original Reversi rules, the first four plays are placed in the center four square of the board.  In the Othello variation, the board starts out with the first four pieces already in the center with the black pieces in the upper-left and lower-right.  Black goes first and the players alternate from there.</p>
-				<p>To play a piece, the player must play a piece of their color where there are one or more pieces of the opposite color between that location and the location of another one of that player’s pieces.  This arrangement must be in a straight line, be it horizontal, vertical or diagonal.  <span>If a player is unable to make a legal move, it becomes the other player’s turn again.  If neither player is able to make a legal move, often because the board is full, the game ends.  <strong>The player with the most face up pieces of their color wins.</strong>  If the players end the game with the same number of face up pieces the game ends in a tie.</span></p>
-			</div>
-		</section>
-		<section id="history">
-			<h2>History of Reversi</h2>
-			<p>Reversi was invented in 1883 by and Englishman.  In 1889 Ravensburger, a German game publisher, started producing the game for sale.  In the early 1970s Tsukuda Origial, a Japanese company created their own variant and trademarked the name Othello, based off the Shakespearian play.  Japan held its first national championship in 1973 and the first world championship was held in 1977.</p>
-			<aside>
-				<h3>Interesting Facts</h3>
-				<ol>
-					<li>There were two Englishmen who claimed to be the inventors of Reversi, John W. Mallett and Lewis Waterman, and both claimed the other to be a fraud.</li>
-					<li>The US has only won the Othello World Championship 5 times since its inception in 1977.</li>
-				</ol>
-			</aside>
-		</section>
-	</article>
-	<footer>
-		<ul>
-			<li><a href="#">Top</a></li>
-			<li><a href="#rules">Rules</a></li>
-			<li><a href="#history">History</a></li>
-		</ul>
-	</footer>
+		</footer>
+	</div>
 </body>
 </html>
