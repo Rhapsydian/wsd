@@ -31,8 +31,8 @@ header {
 h1 {
 	float:left;
 	color:#333;
-	text-shadow: 2px 2px 3px rgba(0,0,32,0.5);
-	font-family: 'Montserrat Alternates', sans-serif;
+	text-shadow:2px 2px 3px rgba(0,0,32,0.5);
+	font-family:'Montserrat Alternates', sans-serif;
 }
 
 nav ul {
@@ -79,8 +79,7 @@ nav a:hover {
 #gallery {
 	float:right;
 	width:25.41666666666667%; /*244px/960px*/
-	padding-top:2.083333333333333%; /*20px/960px*/
-	padding-left:2.083333333333333%; /*20px/960px*/
+	padding:2.083333333333333% 0% 0% 2.083333333333333%;
 	margin-right:9.583333333333333%; /*92px/960px*/
 	border:2px dashed #666;
 	border-radius:10px;
@@ -102,7 +101,7 @@ nav a:hover {
 	background-color:#333;
 	padding:0.8333333333333333%; /*8px/960px*/
 	border-radius:15px;
-	box-shadow: 2px 2px 3px rgba(0,0,32,0.5);
+	box-shadow:2px 2px 3px rgba(0,0,32,0.5);
 }
 
 #rules div {
@@ -182,14 +181,13 @@ footer a:hover {
 		overflow:hidden;
 		clear:both;
 		width:80%;
-		padding:0%;
-		padding-left:4.098360655737705%;
+		padding:0% 0% 0% 4.098360655737705%;
 		margin:4.098360655737705% auto;
 	}
 	
 	#gallery li {
 		margin:4.098360655737705% 4.098360655737705% 4.098360655737705% 0%;
-		width:20.49180327868852%
+		width:20.49180327868852%;
 	}
 	
 	#boardimage {
@@ -207,8 +205,7 @@ footer a:hover {
 		overflow:hidden;
 		clear:both;
 		width:80%;
-		padding:0%;
-		padding-left:4.098360655737705%;
+		padding:0% 0% 0% 4.098360655737705%;
 		margin:4.098360655737705% auto;
 	}
 	
@@ -239,8 +236,7 @@ footer a:hover {
 		overflow:hidden;
 		clear:both;
 		width:80%;
-		padding:0%;
-		padding-left:4.098360655737705%;
+		padding:0% 0% 0% 4.098360655737705%;
 		margin:4.098360655737705% auto;
 	}
 	
