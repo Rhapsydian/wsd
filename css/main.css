@@ -195,7 +195,7 @@ footer a:hover {
 	}
 }
 
-@media screen and (min-width:369px) and (max-width:479px){
+@media screen and (min-width:381px) and (max-width:479px){
 	body {
 		width:98.95833333333333%;
 	}
@@ -226,7 +226,7 @@ footer a:hover {
 	}
 }
 
-@media screen and (max-width:368px){
+@media screen and (max-width:380px){
 	body {
 		width:361px;
 	}
