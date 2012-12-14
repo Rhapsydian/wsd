@@ -114,6 +114,53 @@ nav a:hover {
 margin-top:0px;
 }
 
+table {
+	border:1px solid #000;
+	border-collapse:collapse;
+}
+
+th {
+	text-align:left;
+	background-color:#333;
+	color:#fff;
+	padding:10px;
+}
+
+td {
+	border:1px solid #000;
+	padding:10px;
+}
+
+.odd {
+	background-color:#ddd;
+}
+
+#signup {
+	color:#000;
+	border:1px solid #030;
+	border:1px solid #030;
+	padding:0.8333333333333333%; /*8px/960px*/
+	border-radius:15px;
+	box-shadow:2px 2px 3px rgba(0,0,32,0.5);
+}
+
+label {
+	display:inline-block;
+	width:15%;
+}
+
+input, select {
+	margin-left:0%;
+}
+
+input[type="submit"] {
+	margin-left:15%;
+}
+
+input:focus, select:focus {
+	background-color:#eee;
+}
+
 
 /* ------------------------------- Footer --------------------------- */
 
@@ -193,6 +240,14 @@ footer a:hover {
 	#boardimage {
 		margin-bottom:4.098360655737705%;
 	}
+	
+	label {
+		width:17.5%;
+	}
+	
+	input[type="submit"] {
+		margin-left:17.5%;
+	}
 }
 
 @media screen and (min-width:381px) and (max-width:479px){
@@ -223,6 +278,14 @@ footer a:hover {
 		-moz-column-count:1;
 		-webkit-column-count:1;
 		column-count:1;
+	}
+	
+	label {
+		width:20%;
+	}
+	
+	input[type="submit"] {
+		margin-left:20%;
 	}
 }
 
